@@ -44,11 +44,11 @@ class Solution:
         word_endings = []
         filtered_endings = []
         rhyme_amount = []
-        rhyme_count = 0
+        rhyme_count =0
         for i in range(len(words)):
             if(words[i][0] in first_letters):
                 if(words[i][0] in alit_letters):
-                    letter_count[alit_letters.index(words[i][0])] += 1
+                    letter_count[alit_letters.index(words[i][0])] +=1
                 else:
                     alit_letters.append(words[i][0])
                     letter_count.append(2)
@@ -59,7 +59,7 @@ class Solution:
         for j in range(len(words)):
             if (words[j][-3:] in word_endings):
                 if(words[j][-3:] in filtered_endings):
-                    rhyme_amount[filtered_endings.index(words[j][-3:])] += 1
+                    rhyme_amount[filtered_endings.index(words[j][-3:])] +=1
                 else:
                     filtered_endings.append(words[j][-3:])
                     rhyme_amount.append(2)
