@@ -37,7 +37,7 @@ class Solution:
         # return: string 
         
         # TODO: Write code below to return a string with the solution to the prompt
-        words = lyric.split("")
+        words = lyric.split(" ")
         first_letters = []
         alit_letters = []
         letter_count= []
