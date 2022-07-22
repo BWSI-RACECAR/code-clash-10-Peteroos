@@ -50,7 +50,7 @@ class Solution:
                 if(words[i][0] in alit_letters):
                     letter_count[alit_letters.index(words[i][0])] += 1
                 else:
-                    alit_letters.append(wordsi][0])
+                    alit_letters.append(words[i][0])
                     letter_count.append(2)
             else:
                 first_letters.append(wordsi][0])
