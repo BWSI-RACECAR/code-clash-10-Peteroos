@@ -53,7 +53,7 @@ class Solution:
                     alit_letters.append(words[i][0])
                     letter_count.append(2)
             else:
-                first_letters.append(wordsi][0])
+                first_letters.append(words[i][0])
 
 
         for j in range(len(word)):
