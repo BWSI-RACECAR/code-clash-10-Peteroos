@@ -56,7 +56,7 @@ class Solution:
                 first_letters.append(words[i][0])
 
 
-        for j in range(len(word)):
+        for j in range(len(words)):
             if (words[j][-3:] in word_endings):
                 if(words[j][-3:] in filtered_endings):
                     rhyme_amount[filtered_endings.index(words[j][-3:])] += 1
